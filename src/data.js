@@ -10,7 +10,7 @@ export const products = [
       "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
   },
   {
-    id: 112123,
+    id: 112122,
     title: "Espresso",
     price: 9,
     tags: ["Intense", "Italian"],
@@ -20,7 +20,7 @@ export const products = [
       "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
   },
   {
-    id: 112121,
+    id: 112123,
     title: "Hazelnut Latte",
     price: 5,
     tags: ["Nutty", "Creamy", "Smooth"],
