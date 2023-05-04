@@ -3,8 +3,8 @@ export default function Hero() {
     "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
 
   return (
-    <section className=''>
-      <article className='mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 p-5 lg:flex-row'>
+    <section className='bg-orange-100/70'>
+      <article className='mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 px-5 py-10 lg:flex-row'>
         <div className='flex flex-col space-y-10'>
           <hgroup className='flex flex-col space-y-3 text-5xl font-bold lg:text-6xl'>
             <h1>
