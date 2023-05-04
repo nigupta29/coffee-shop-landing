@@ -55,3 +55,12 @@ export const deliveryData = [
     image: CoffeeCupImg,
   },
 ]
+
+export const aboutUsData = {
+  title: "About Us",
+  subtitle: "We provide quality coffee, and ready to deliver.",
+  desc: "We are a company that makes and distributes delicious drinks. our main product is made with a secret recipe and available in stores worldwide.",
+  btnText: "Get your coffee",
+  image:
+    "https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+}
