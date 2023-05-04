@@ -35,6 +35,63 @@ export const products = [
   },
 ]
 
+export const specialMenuProducts = [
+  {
+    id: 686121,
+    title: "Sandwich",
+    price: 6,
+    rating: 4.8,
+    desc: "Satisfy your hunger with our freshly-made sandwiches.",
+    image:
+      "https://images.unsplash.com/photo-1592415486689-125cbbfcbee2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80",
+  },
+  {
+    id: 686122,
+    title: "Cocoa Milk",
+    price: 9,
+    rating: 4.2,
+    desc: "Warm up with the comforting taste of our cocoa milk.",
+    image:
+      "https://images.unsplash.com/photo-1517578239113-b03992dcdd25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  },
+  {
+    id: 686123,
+    title: "Coffee Ice Cream",
+    price: 5,
+    rating: 3.9,
+    desc: "Indulge in our creamy coffee ice cream, the perfect treat for any time of day.",
+    image:
+      "https://images.unsplash.com/photo-1558722141-76ef6ca013be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  },
+  {
+    id: 686124,
+    title: "Waffle Ice Cream",
+    price: 9,
+    rating: 4.5,
+    desc: "Experience the ultimate indulgence with our delicious waffle ice cream.",
+    image:
+      "https://images.unsplash.com/photo-1656517092618-0902a2f8b5ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+  },
+  {
+    id: 686125,
+    title: "Cappucino",
+    price: 15,
+    rating: 4.5,
+    desc: "Savor the rich, velvety flavor of our authentic Italian cappuccino.",
+    image:
+      "https://images.unsplash.com/photo-1581451150297-cb5a19b572e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+  },
+  {
+    id: 686126,
+    title: "Mocha Latte",
+    price: 25,
+    rating: 3.8,
+    desc: "Decadent chocolate and smooth espresso, the perfect pick-me-up.",
+    image:
+      "https://images.unsplash.com/photo-1633871676920-df29763dcee7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  },
+]
+
 export const deliveryData = [
   {
     id: 111,

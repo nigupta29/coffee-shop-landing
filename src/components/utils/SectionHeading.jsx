@@ -9,7 +9,9 @@ function SectionHeading({ text, spacingOff }) {
   const spaceStyle = spacingOff ? "m-0" : "mb-10"
 
   return (
-    <h3 className={`${spaceStyle} text-2xl font-bold lg:text-3xl`}>
+    <h3
+      className={`${spaceStyle} text-center text-2xl font-bold lg:text-start lg:text-3xl`}
+    >
       {text} <span className='underline decoration-amber-500'>{lastWord}</span>
     </h3>
   )
