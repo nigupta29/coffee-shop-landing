@@ -1,3 +1,7 @@
+import CoffeeCupImg from "./assets/img/coffee-cup.png"
+import CoffeeImg from "./assets/img/coffee.png"
+import CoffeeDelImg from "./assets/img/food-truck.png"
+
 export const products = [
   {
     id: 112121,
@@ -28,5 +32,26 @@ export const products = [
     desc: "Indulge in the nutty flavor of our Hazelnut Latte.",
     image:
       "https://images.unsplash.com/photo-1637959741616-16c7bfe9300b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  },
+]
+
+export const deliveryData = [
+  {
+    id: 111,
+    title: "Choose your coffee",
+    subtitle: "There are 20+ coffees specially for you.",
+    image: CoffeeImg,
+  },
+  {
+    id: 112,
+    title: "Select the delivery service",
+    subtitle: "We have outlets in 50+ different cities.",
+    image: CoffeeDelImg,
+  },
+  {
+    id: 113,
+    title: "Coffee at your doorstep",
+    subtitle: "Enjoy your coffee, and have a relax day ahead.",
+    image: CoffeeCupImg,
   },
 ]

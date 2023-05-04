@@ -22,6 +22,7 @@ export default function PopularNow() {
                   src={image}
                   alt={title}
                   className='h-72 w-full object-cover'
+                  loading='lazy'
                 />
               </div>
               <div className='mb-4 flex items-center justify-between text-xl'>
