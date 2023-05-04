@@ -1,10 +1,11 @@
 import { products } from "../data"
-import SectionHeading from "./SectionHeading"
+import Container from "./utils/Container"
+import SectionHeading from "./utils/SectionHeading"
 
 export default function PopularNow() {
   return (
     <section>
-      <article className='mx-auto max-w-6xl px-5 py-10'>
+      <Container>
         <SectionHeading text={"Popular Now"} />
 
         <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3'>
@@ -43,7 +44,7 @@ export default function PopularNow() {
             </div>
           ))}
         </div>
-      </article>
+      </Container>
     </section>
   )
 }
