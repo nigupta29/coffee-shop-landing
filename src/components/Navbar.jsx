@@ -31,7 +31,7 @@ export default function Navbar() {
             />
           </div>
 
-          <i className='fa-solid fa-cart-shopping text-2xl text-neutral-800'></i>
+          <i className='fa-solid fa-mug-saucer text-2xl text-neutral-800'></i>
         </div>
       </nav>
     </header>

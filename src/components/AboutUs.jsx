@@ -14,7 +14,7 @@ export default function AboutUs() {
             <img
               src={image}
               alt='Different Coffees'
-              className='mx-auto h-96 w-full rounded-xl border-8 object-cover lg:absolute lg:-top-52 lg:left-1/4 lg:h-[500px] lg:w-auto'
+              className='mx-auto h-96 w-full rounded-xl border-8 border-white/50 object-cover lg:absolute lg:-top-52 lg:left-1/4 lg:h-[500px] lg:w-auto'
               loading='lazy'
             />
           </div>
