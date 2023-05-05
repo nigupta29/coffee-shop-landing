@@ -17,7 +17,7 @@ export default function Newsletter() {
               required
             />
 
-            <div className='absolute bottom-0.5 right-1'>
+            <div className='absolute bottom-[3px] right-[5px]'>
               <Button text={"Order Now"} />
             </div>
           </div>
