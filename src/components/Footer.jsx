@@ -8,7 +8,7 @@ export default function Footer() {
         <div className='flex flex-wrap justify-between'>
           <div className='mb-4 w-full lg:mb-0 lg:w-1/4'>
             <img src={CafeStreetLogo} alt='' className='mb-4 h-16' />
-            <p className='text-sm'>
+            <p className='text-sm tracking-tight'>
               We&rsquo;re passionate about coffee and providing our customers
               with the best possible experience.
             </p>
@@ -26,17 +26,39 @@ export default function Footer() {
             <h3 className='mb-4 text-lg font-medium text-neutral-500'>
               Follow Us
             </h3>
-            <div className='flex gap-5 text-2xl'>
+            <div className='mb-4 flex gap-5 text-2xl'>
               <a href=''>
-                <i className='fab fa-facebook-f'></i>
+                <i className='fa-brands fa-facebook-f'></i>
               </a>
               <a href=''>
-                <i className='fab fa-twitter'></i>
+                <i className='fa-brands fa-twitter'></i>
               </a>
               <a href=''>
-                <i className='fab fa-instagram'></i>
+                <i className='fa-brands fa-instagram'></i>
               </a>
             </div>
+            <p className='text-sm'>
+              Code by{" "}
+              <a
+                href='https://github.com/nigupta29'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='font-semibold underline decoration-amber-500'
+              >
+                Nikhil Gupta
+              </a>
+            </p>
+            <p className='text-sm'>
+              Design by{" "}
+              <a
+                href='https://www.figma.com/community/file/1138256358581554095/Cafe-Street---E-Commerce-Landing-Page'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='font-semibold underline decoration-amber-500'
+              >
+                Rauliqbal
+              </a>
+            </p>
           </div>
         </div>
       </Container>
