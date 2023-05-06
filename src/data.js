@@ -121,3 +121,53 @@ export const aboutUsData = {
   image:
     "https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
 }
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "John Doe",
+    occupation: "Software Engineer",
+    quote:
+      "I love the Vanilla Latte! It's the perfect blend of sweetness and caffeine to start my day.",
+    image: "https://i.pravatar.cc/150?img=7",
+  },
+  {
+    id: 2,
+    name: "Jane Smith",
+    occupation: "Graphic Designer",
+    quote:
+      "The Hazelnut Latte is my go-to drink. It's like a warm hug in a cup!",
+    image: "https://i.pravatar.cc/150?img=8",
+  },
+  {
+    id: 3,
+    name: "Bob Johnson",
+    occupation: "Accountant",
+    quote: "The Espresso is the perfect pick-me-up during a long day of work.",
+    image: "https://i.pravatar.cc/150?img=3",
+  },
+  {
+    id: 4,
+    name: "Emily Davis",
+    occupation: "Marketing Manager",
+    quote:
+      "The Waffle Ice Cream is so delicious! It's the perfect treat on a hot summer day.",
+    image: "https://i.pravatar.cc/150?img=5",
+  },
+  {
+    id: 5,
+    name: "Mike Brown",
+    occupation: "Sales Representative",
+    quote:
+      "The Cocoa Milk is my favorite drink. It's like a warm, chocolatey hug in a cup!",
+    image: "https://i.pravatar.cc/150?img=11",
+  },
+  {
+    id: 6,
+    name: "Sarah Wilson",
+    occupation: "Graphic Designer",
+    quote:
+      "The Coffee Ice Cream is so creamy and delicious. It's the perfect dessert after a long day.",
+    image: "https://i.pravatar.cc/150?img=10",
+  },
+]

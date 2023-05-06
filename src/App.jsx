@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar"
 import Newsletter from "./components/Newsletter"
 import PopularNow from "./components/PopularNow"
 import SpecialMenu from "./components/SpecialMenu"
+import TestimonialGrid from "./components/Testimonials"
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <DeliveryService />
       <AboutUs />
       <SpecialMenu />
+      <TestimonialGrid />
       <Newsletter />
       <Footer />
     </div>
