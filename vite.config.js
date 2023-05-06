@@ -5,4 +5,7 @@ import { defineConfig } from "vite"
 export default defineConfig({
   base: "/coffee-shop-landing/",
   plugins: [react()],
+  build: {
+    assetsInlineLimit: 4096,
+  },
 })

@@ -1,3 +1,4 @@
+import BeansImage from "../assets/img/beans2.png"
 import { testimonials } from "../data"
 import Container from "./utils/Container"
 import SectionHeading from "./utils/SectionHeading"
@@ -24,8 +25,15 @@ const Testimonial = ({ testimonial }) => {
 }
 
 const TestimonialGrid = () => {
+  const bgStyle = {
+    backgroundImage: `url("${BeansImage}")`,
+  }
+
   return (
-    <section className=' bg-orange-100/70 bg-[url("./beans3.png")] bg-scroll bg-bottom bg-no-repeat md:bg-contain'>
+    <section
+      style={bgStyle}
+      className=' bg-orange-100/70 bg-[url("../assets/img/beans3.png")] bg-scroll bg-bottom bg-no-repeat md:bg-contain'
+    >
       <Container>
         <SectionHeading text={"See what everyone is talking about us!"} />
         <div className='grid gap-8 md:grid-cols-2 lg:grid-cols-3'>

@@ -1,3 +1,4 @@
+import BeansImage from "../assets/img/beans.png"
 import { aboutUsData } from "../data"
 import Button from "./utils/Button"
 import Container from "./utils/Container"
@@ -6,8 +7,15 @@ import SectionHeading from "./utils/SectionHeading"
 export default function AboutUs() {
   const { btnText, image, desc, subtitle, title } = aboutUsData
 
+  const bgStyle = {
+    backgroundImage: `url("${BeansImage}")`,
+  }
+
   return (
-    <section className='bg-[url("./beans.png")] bg-contain bg-center lg:mt-64 lg:bg-orange-100/70'>
+    <section
+      style={bgStyle}
+      className='bg-[url("./beans.png")] bg-contain bg-center lg:mt-64 lg:bg-orange-100/70'
+    >
       <Container>
         <div className={`flex flex-col justify-center gap-5 lg:flex-row `}>
           <div className='relative lg:w-1/2'>
